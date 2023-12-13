@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OpneMRS">
+	<test name="TC_001_CreateRecord" enabled="false">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.automation.testscripts.TC_001_CreateRecord" />
+		</classes>
+	</test>
+
+	<test name="TC_002_CreateRecordPOM">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.automation.testscripts.TC_002_CreateRecordPOM"></class>
+		</classes>
+	</test>
+
+</suite> 
+
+
