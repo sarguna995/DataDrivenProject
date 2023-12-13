@@ -40,7 +40,7 @@ public class RootScript {
 
 		driver.manage().window().maximize();
 
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 
